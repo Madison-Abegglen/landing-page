@@ -106,8 +106,8 @@ section h2{
 }
 @media (min-width:992px){
     #mainNav{
-        padding-top:1.5rem;
-        padding-bottom:1.5rem;
+        padding-top:1rem;
+        padding-bottom:.75rem;
         -webkit-transition:padding-top .3s,padding-bottom .3s;
         -moz-transition:padding-top .3s,padding-bottom .3s;
         transition:padding-top .3s,padding-bottom .3s

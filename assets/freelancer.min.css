@@ -1,9 +1,9 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
     font-weight:700;
-    font-family:Montserrat
+    font-family: 'Roboto', sans-serif;
 }
 hr.star-dark,hr.star-light{
     max-width:15rem;
@@ -26,18 +26,18 @@ hr.star-dark:after,hr.star-light:after{
     font-size:2em
 }
 hr.star-light{
-    border-color:#fff
+    border-color: #EE7785
 }
 hr.star-light:after{
     color:#fff;
     background-color: #67D5B5;
 }
 hr.star-dark{
-    border-color:#2c3e50
+    border-color: #EE7785
 }
 hr.star-dark:after{
-    color:#2c3e50;
-    background-color:#fff
+    color:white;
+    background-color: #67D5B5;
 }
 section{
     padding:6rem 0
@@ -79,7 +79,7 @@ section h2{
     padding-top:1rem;
     padding-bottom:1rem;
     font-weight:700;
-    font-family:Montserrat;
+    font-family: 'Roboto', sans-serif;
     background-color: #67D5B5;
 }
 #mainNav .navbar-brand{
@@ -146,7 +146,7 @@ header.masthead h1{
 }
 header.masthead h2{
     font-size:1.3rem;
-    font-family:Lato
+    font-family: 'Roboto', sans-serif;
 }
 @media (min-width:992px){
     header.masthead{
@@ -175,7 +175,7 @@ header.masthead h2{
     -moz-transition:all ease .5s;
     transition:all ease .5s;
     opacity:0;
-    background-color:rgba(24,188,156,.9)
+    background-color:#EE7785;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover{
     opacity:1
